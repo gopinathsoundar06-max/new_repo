@@ -4,3 +4,6 @@ module "my_module" {
 module "dynamodb_module" {
   source = "./modules/DynomoDB"
 }
+module "vpc_module" {
+  source = "./modules/VPC"
+}
